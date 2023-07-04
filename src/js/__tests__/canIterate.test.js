@@ -7,7 +7,7 @@ test('test canIterate witn array', () => {
 });
 
 test('test canIterate witn obj', () => {
-  const obj = {a:3,b:2,c:4};
+  const obj = { a: 3, b: 2, c: 4 };
   const result = canIterate(obj);
   expect(result).toBe(false);
 });
